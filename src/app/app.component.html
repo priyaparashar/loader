@@ -1,0 +1,8 @@
+<div>
+<button (click)="showLoader=true">Open</button>
+<button (click)="showLoader=false">Close</button>
+</div>
+<div class="center">
+<div class="lds-spinner" *ngIf="showLoader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</div>
+
